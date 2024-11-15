@@ -1,3 +1,6 @@
+/**
+ * The `connectDB` function connects to a MongoDB database using the `mongoose` library in JavaScript.
+ */
 import mongoose from "mongoose";
 
 export const connectDB = async () => {

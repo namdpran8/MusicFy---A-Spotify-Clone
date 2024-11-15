@@ -1,3 +1,11 @@
+/* This code snippet is setting up a router using the Express framework in a Node.js application. It
+imports necessary modules such as `Router` from Express, `protectRoute` from an authentication
+middleware file, and controller functions `getAllUsers` and `getMessages` from the user controller
+file. It defines routes for handling HTTP GET requests, where the first route handles requests to
+the root path ("/") by calling the `getAllUsers` controller function after applying the
+`protectRoute` middleware, and the second route handles requests to "/messages/:userId" by calling
+the `getMessages` controller function after applying the `protectRoute` middleware. Finally, it
+exports the configured router for use in other parts of the application. */
 import express from "express";
 import dotenv from "dotenv";
 import { clerkMiddleware } from "@clerk/express";

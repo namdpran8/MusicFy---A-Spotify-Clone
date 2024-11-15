@@ -1,3 +1,11 @@
+/**
+ * The initializeSocket function sets up a Socket.IO server to handle real-time messaging and user
+ * activity tracking.
+ * @param server - The `server` parameter in the `initializeSocket` function is the HTTP server
+ * instance that you want to attach the Socket.IO server to. This server instance could be created
+ * using Node.js's built-in `http` module or any other library that creates an HTTP server, such as
+ * Express. The Socket
+ */
 import { Server } from "socket.io";
 import { Message } from "../models/message.model.js";
 

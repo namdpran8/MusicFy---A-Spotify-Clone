@@ -1,3 +1,6 @@
+/* This JavaScript code snippet is importing the `v2` module from the `cloudinary` library and
+assigning it an alias `cloudinary`. It also imports the `dotenv` library to load environment
+variables from a `.env` file. */
 import { v2 as cloudinary } from "cloudinary";
 
 import dotenv from "dotenv";
